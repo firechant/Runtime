@@ -19,6 +19,7 @@
 		17B947B918ADDDBD0014E437 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B947A118ADDDBD0014E437 /* UIKit.framework */; };
 		17B947C118ADDDBD0014E437 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 17B947BF18ADDDBD0014E437 /* InfoPlist.strings */; };
 		17B947C318ADDDBD0014E437 /* RuntimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B947C218ADDDBD0014E437 /* RuntimeTests.m */; };
+		17B947CF18ADE1CD0014E437 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17B947CE18ADE1CD0014E437 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		17B947BE18ADDDBD0014E437 /* RuntimeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RuntimeTests-Info.plist"; sourceTree = "<group>"; };
 		17B947C018ADDDBD0014E437 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		17B947C218ADDDBD0014E437 /* RuntimeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RuntimeTests.m; sourceTree = "<group>"; };
+		17B947CE18ADE1CD0014E437 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		17B9479118ADDDBD0014E437 = {
 			isa = PBXGroup;
 			children = (
+				17B947CE18ADE1CD0014E437 /* Main.storyboard */,
 				17B947A318ADDDBD0014E437 /* Runtime */,
 				17B947BC18ADDDBD0014E437 /* RuntimeTests */,
 				17B9479C18ADDDBD0014E437 /* Frameworks */,
@@ -219,6 +222,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17B947CF18ADE1CD0014E437 /* Main.storyboard in Resources */,
 				17B947A818ADDDBD0014E437 /* InfoPlist.strings in Resources */,
 				17B947B018ADDDBD0014E437 /* Images.xcassets in Resources */,
 			);
@@ -359,6 +363,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Runtime/Runtime-Prefix.pch";
 				INFOPLIST_FILE = "Runtime/Runtime-Info.plist";
@@ -372,6 +377,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Runtime/Runtime-Prefix.pch";
 				INFOPLIST_FILE = "Runtime/Runtime-Info.plist";
