@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface QuickTimerViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIButton *savedTimer;
+@property (weak, nonatomic) IBOutlet UIButton *newTimer;
 
 @end

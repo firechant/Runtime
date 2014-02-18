@@ -21,6 +21,11 @@
 		17B947C318ADDDBD0014E437 /* RuntimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B947C218ADDDBD0014E437 /* RuntimeTests.m */; };
 		17B947CF18ADE1CD0014E437 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17B947CE18ADE1CD0014E437 /* Main.storyboard */; };
 		D84C70FB18B2F6E0001497F7 /* heyyeah.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D84C70FA18B2F6E0001497F7 /* heyyeah.jpg */; };
+		D8D4085618B32DDA00BCCB0D /* TimerListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D4085518B32DDA00BCCB0D /* TimerListViewController.m */; };
+		D8D4085918B33B3400BCCB0D /* QuickTimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D4085818B33B3400BCCB0D /* QuickTimerViewController.m */; };
+		D8D4085F18B33DDD00BCCB0D /* RunTimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D4085E18B33DDD00BCCB0D /* RunTimerViewController.m */; };
+		D8D4086518B3406600BCCB0D /* EditInstructionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D4086418B3406600BCCB0D /* EditInstructionViewController.m */; };
+		D8D4086818B3407C00BCCB0D /* EditTimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D4086718B3407C00BCCB0D /* EditTimerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +57,16 @@
 		17B947C218ADDDBD0014E437 /* RuntimeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RuntimeTests.m; sourceTree = "<group>"; };
 		17B947CE18ADE1CD0014E437 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		D84C70FA18B2F6E0001497F7 /* heyyeah.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = heyyeah.jpg; sourceTree = "<group>"; };
+		D8D4085418B32DDA00BCCB0D /* TimerListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TimerListViewController.h; path = Runtime/TimerListViewController.h; sourceTree = "<group>"; };
+		D8D4085518B32DDA00BCCB0D /* TimerListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TimerListViewController.m; path = Runtime/TimerListViewController.m; sourceTree = "<group>"; };
+		D8D4085718B33B3400BCCB0D /* QuickTimerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QuickTimerViewController.h; path = Runtime/QuickTimerViewController.h; sourceTree = "<group>"; };
+		D8D4085818B33B3400BCCB0D /* QuickTimerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QuickTimerViewController.m; path = Runtime/QuickTimerViewController.m; sourceTree = "<group>"; };
+		D8D4085D18B33DDD00BCCB0D /* RunTimerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RunTimerViewController.h; path = Runtime/RunTimerViewController.h; sourceTree = "<group>"; };
+		D8D4085E18B33DDD00BCCB0D /* RunTimerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RunTimerViewController.m; path = Runtime/RunTimerViewController.m; sourceTree = "<group>"; };
+		D8D4086318B3406600BCCB0D /* EditInstructionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EditInstructionViewController.h; path = Runtime/EditInstructionViewController.h; sourceTree = "<group>"; };
+		D8D4086418B3406600BCCB0D /* EditInstructionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EditInstructionViewController.m; path = Runtime/EditInstructionViewController.m; sourceTree = "<group>"; };
+		D8D4086618B3407B00BCCB0D /* EditTimerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EditTimerViewController.h; path = Runtime/EditTimerViewController.h; sourceTree = "<group>"; };
+		D8D4086718B3407C00BCCB0D /* EditTimerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EditTimerViewController.m; path = Runtime/EditTimerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +96,17 @@
 		17B9479118ADDDBD0014E437 = {
 			isa = PBXGroup;
 			children = (
+				D8D4085D18B33DDD00BCCB0D /* RunTimerViewController.h */,
+				D8D4085E18B33DDD00BCCB0D /* RunTimerViewController.m */,
+				D8D4085418B32DDA00BCCB0D /* TimerListViewController.h */,
+				D8D4085518B32DDA00BCCB0D /* TimerListViewController.m */,
 				17B947CE18ADE1CD0014E437 /* Main.storyboard */,
+				D8D4086318B3406600BCCB0D /* EditInstructionViewController.h */,
+				D8D4086418B3406600BCCB0D /* EditInstructionViewController.m */,
+				D8D4086618B3407B00BCCB0D /* EditTimerViewController.h */,
+				D8D4086718B3407C00BCCB0D /* EditTimerViewController.m */,
+				D8D4085718B33B3400BCCB0D /* QuickTimerViewController.h */,
+				D8D4085818B33B3400BCCB0D /* QuickTimerViewController.m */,
 				D84C70FA18B2F6E0001497F7 /* heyyeah.jpg */,
 				17B947A318ADDDBD0014E437 /* Runtime */,
 				17B947BC18ADDDBD0014E437 /* RuntimeTests */,
@@ -249,6 +274,11 @@
 			files = (
 				17B947AE18ADDDBD0014E437 /* AppDelegate.m in Sources */,
 				17B947AA18ADDDBD0014E437 /* main.m in Sources */,
+				D8D4085918B33B3400BCCB0D /* QuickTimerViewController.m in Sources */,
+				D8D4086518B3406600BCCB0D /* EditInstructionViewController.m in Sources */,
+				D8D4086818B3407C00BCCB0D /* EditTimerViewController.m in Sources */,
+				D8D4085618B32DDA00BCCB0D /* TimerListViewController.m in Sources */,
+				D8D4085F18B33DDD00BCCB0D /* RunTimerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
