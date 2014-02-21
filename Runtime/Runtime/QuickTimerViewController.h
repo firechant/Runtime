@@ -10,6 +10,6 @@
 
 @interface QuickTimerViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UIButton *savedTimer;
-@property (weak, nonatomic) IBOutlet UIButton *newTimer;
+@property (weak, nonatomic) IBOutlet UIButton *makeNewTimer;
 
 @end
