@@ -20,8 +20,8 @@
 		17B947C118ADDDBD0014E437 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 17B947BF18ADDDBD0014E437 /* InfoPlist.strings */; };
 		17B947C318ADDDBD0014E437 /* RuntimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B947C218ADDDBD0014E437 /* RuntimeTests.m */; };
 		17B947CF18ADE1CD0014E437 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17B947CE18ADE1CD0014E437 /* Main.storyboard */; };
+		D804CC8518B72CF4004D961D /* TimeListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D804CC8418B72CF4004D961D /* TimeListViewController.m */; };
 		D84C70FB18B2F6E0001497F7 /* heyyeah.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D84C70FA18B2F6E0001497F7 /* heyyeah.jpg */; };
-		D8D4085618B32DDA00BCCB0D /* TimerListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D4085518B32DDA00BCCB0D /* TimerListViewController.m */; };
 		D8D4085918B33B3400BCCB0D /* QuickTimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D4085818B33B3400BCCB0D /* QuickTimerViewController.m */; };
 		D8D4085F18B33DDD00BCCB0D /* RunTimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D4085E18B33DDD00BCCB0D /* RunTimerViewController.m */; };
 		D8D4086518B3406600BCCB0D /* EditInstructionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D4086418B3406600BCCB0D /* EditInstructionViewController.m */; };
@@ -56,9 +56,9 @@
 		17B947C018ADDDBD0014E437 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		17B947C218ADDDBD0014E437 /* RuntimeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RuntimeTests.m; sourceTree = "<group>"; };
 		17B947CE18ADE1CD0014E437 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		D804CC8318B72CF4004D961D /* TimeListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TimeListViewController.h; path = Runtime/TimeListViewController.h; sourceTree = "<group>"; };
+		D804CC8418B72CF4004D961D /* TimeListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TimeListViewController.m; path = Runtime/TimeListViewController.m; sourceTree = "<group>"; };
 		D84C70FA18B2F6E0001497F7 /* heyyeah.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = heyyeah.jpg; sourceTree = "<group>"; };
-		D8D4085418B32DDA00BCCB0D /* TimerListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TimerListViewController.h; path = Runtime/TimerListViewController.h; sourceTree = "<group>"; };
-		D8D4085518B32DDA00BCCB0D /* TimerListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TimerListViewController.m; path = Runtime/TimerListViewController.m; sourceTree = "<group>"; };
 		D8D4085718B33B3400BCCB0D /* QuickTimerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QuickTimerViewController.h; path = Runtime/QuickTimerViewController.h; sourceTree = "<group>"; };
 		D8D4085818B33B3400BCCB0D /* QuickTimerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QuickTimerViewController.m; path = Runtime/QuickTimerViewController.m; sourceTree = "<group>"; };
 		D8D4085D18B33DDD00BCCB0D /* RunTimerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RunTimerViewController.h; path = Runtime/RunTimerViewController.h; sourceTree = "<group>"; };
@@ -98,9 +98,9 @@
 			children = (
 				D8D4085D18B33DDD00BCCB0D /* RunTimerViewController.h */,
 				D8D4085E18B33DDD00BCCB0D /* RunTimerViewController.m */,
-				D8D4085418B32DDA00BCCB0D /* TimerListViewController.h */,
-				D8D4085518B32DDA00BCCB0D /* TimerListViewController.m */,
 				17B947CE18ADE1CD0014E437 /* Main.storyboard */,
+				D804CC8318B72CF4004D961D /* TimeListViewController.h */,
+				D804CC8418B72CF4004D961D /* TimeListViewController.m */,
 				D8D4086318B3406600BCCB0D /* EditInstructionViewController.h */,
 				D8D4086418B3406600BCCB0D /* EditInstructionViewController.m */,
 				D8D4086618B3407B00BCCB0D /* EditTimerViewController.h */,
@@ -277,7 +277,7 @@
 				D8D4085918B33B3400BCCB0D /* QuickTimerViewController.m in Sources */,
 				D8D4086518B3406600BCCB0D /* EditInstructionViewController.m in Sources */,
 				D8D4086818B3407C00BCCB0D /* EditTimerViewController.m in Sources */,
-				D8D4085618B32DDA00BCCB0D /* TimerListViewController.m in Sources */,
+				D804CC8518B72CF4004D961D /* TimeListViewController.m in Sources */,
 				D8D4085F18B33DDD00BCCB0D /* RunTimerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
